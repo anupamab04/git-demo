@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile & Course Information</title>
+</head>
+<body>
+    <!-- Header and Navigation -->
+    <header>
+        <h1>Student Profile & Course Information</h1>
+        <nav>
+            <a href="#about">About Me</a> | 
+            <a href="#skills">Core Skills</a> | 
+            <a href="#profile">Profile</a> | 
+            <a href="#courses">Courses</a> | 
+            <a href="#register">Register</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- About Me Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I am an aspiring full-stack web developer currently pursuing a degree in Computer Science & Engineering. I am passionate about building modern web applications, learning new technologies, and solving complex problems.</p>
+        </section>
+
+        <!-- Core Skills Section -->
+        <section id="skills">
+            <h2>Core Skills</h2>
+            <ul>
+                <li>HTML5 & Semantic Markup</li>
+                <li>CSS3 & Responsive Design</li>
+                <li>JavaScript Basics</li>
+                <li>Git Version Control</li>
+            </ul>
+        </section>
+
+        <!-- Student Profile Section -->
+        <section id="profile">
+            <h2>Student Profile</h2>
+            <p>Welcome to the student portal. Here you can view personal details and enrolled courses.</p>
+            <img src="logo.png" alt="Student Profile Logo" width="150">
+            <ul>
+                <li>Name: John Doe</li>
+                <li>Roll No: CSE2026001</li>
+                <li>Department: Computer Science & Engineering</li>
+            </ul>
+        </section>
+
+        <!-- Courses Section -->
+        <section id="courses">
+            <h2>Enrolled Courses</h2>
+            <table border="1">
+                <tr>
+                    <th>Course Code</th>
+                    <th>Course Name</th>
+                    <th>Credits</th>
+                </tr>
+                <tr>
+                    <td>CS101</td>
+                    <td>Full Stack Development</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>CS102</td>
+                    <td>Data Structures</td>
+                    <td>3</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Registration Form Section -->
+        <section id="register">
+            <h2>Course Registration Form</h2>
+            <form>
+                <label for="name">Full Name:</label><br>
+                <input type="text" id="name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" required><br><br>
+
+                <label for="course">Select Course:</label><br>
+                <select id="course">
+                    <option value="fullstack">Full Stack Development</option>
+                    <option value="ds">Data Structures</option>
+                </select><br><br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
